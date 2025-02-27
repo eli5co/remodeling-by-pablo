@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remodeling by Pablo | Premier Home Remodeling in Palisades Park, NJ</title>
+    <meta name="description" content="Transform your house into the home of your dreams with Remodeling by Pablo, Palisades Park's trusted name in home renovation and remodeling services.">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Emergency Banner -->
+    <div class="emergency-banner">
+        <div class="container">
+            <span>Premier Home Remodeling in Bergen County</span>
+            <a href="tel:+12015555555" class="emergency-phone">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                (201) 496-0126
+            </a>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-content">
+                <div class="logo">
+                    <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                    <div class="logo-text">
+                        <h1>Remodeling<br>by Pablo</h1>
+                        <span class="license">Serving Bergen County</span>
+                    </div>
+                </div>
+                
+                <div class="nav-links" id="navLinks">
+                    <a href="#services">Services</a>
+                    <a href="#process">Our Process</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#testimonials">Reviews</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Premier Home Remodeling in Palisades Park, NJ</h1>
+            <p>Transform your house into the home of your dreams with Remodeling by Pablo, Palisades Park's trusted name in home renovation.</p>
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                    Free Estimate
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </button>
+                <a href="tel:+12015555555" class="btn-secondary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    Contact Us
+                </a>
+            </div>
+            <div class="hero-badges">
+                <div class="badge">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                    <span>Licensed & Insured</span>
+                </div>
+                <div class="badge">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                    </svg>
+                    <span>5-Star Rated</span>
+                </div>
+                <div class="badge">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    <span>Family Owned</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section fade-in-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive home remodeling solutions for every part of your home</p>
+            </div>
+            <div class="grid-3">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Kitchen Remodeling">
+                    </div>
+                    <div class="service-content">
+                        <h3>Kitchen Remodeling</h3>
+                        <p>Transform your kitchen into a stunning, functional space</p>
+                        <ul class="service-features">
+                            <li>Custom cabinetry</li>
+                            <li>Premium countertops</li>
+                            <li>Energy-efficient appliances</li>
+                            <li>Designer lighting</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Bathroom Remodeling">
+                    </div>
+                    <div class="service-content">
+                        <h3>Bathroom Remodeling</h3>
+                        <p>Create a spa-like retreat in your own home</p>
+                        <ul class="service-features">
+                            <li>Walk-in showers</li>
+                            <li>Soaking tubs</li>
+                            <li>Custom vanities</li>
+                            <li>Premium fixtures</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Full Home Renovations">
+                    </div>
+                    <div class="service-content">
+                        <h3>Full Home Renovations</h3>
+                        <p>Complete transformation of your Palisades Park home</p>
+                        <ul class="service-features">
+                            <li>Layout modifications</li>
+                            <li>Structural improvements</li>
+                            <li>Finishing details</li>
+                            <li>Design elements</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1617850687395-620757feb1f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Basement Finishing">
+                    </div>
+                    <div class="service-content">
+                        <h3>Basement Finishing</h3>
+                        <p>Unlock valuable living space in your home</p>
+                        <ul class="service-features">
+                            <li>Entertainment rooms</li>
+                            <li>Home offices</li>
+                            <li>Guest suites</li>
+                            <li>Fitness areas</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1604014056465-3e7054f6d5c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Home Additions">
+                    </div>
+                    <div class="service-content">
+                        <h3>Home Additions</h3>
+                        <p>Expand your living space with beautiful additions</p>
+                        <ul class="service-features">
+                            <li>Bedroom additions</li>
+                            <li>Bathroom additions</li>
+                            <li>Expanded kitchens</li>
+                            <li>Sunrooms</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Outdoor Living Spaces">
+                    </div>
+                    <div class="service-content">
+                        <h3>Outdoor Living Spaces</h3>
+                        <p>Extend your living area beyond your home's walls</p>
+                        <ul class="service-features">
+                            <li>Decks and patios</li>
+                            <li>Outdoor kitchens</li>
+                            <li>Fire pit areas</li>
+                            <li>Custom landscaping</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="section bg-light fade-in-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Process</h2>
+                <p>Experience our professional approach to home remodeling</p>
+            </div>
+            <div class="grid-5">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                        </svg>
+                    </div>
+                    <h3>1. Initial Consultation</h3>
+                    <p>We begin with a thorough conversation about your vision, needs, and budget at your Palisades Park home.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                        </svg>
+                    </div>
+                    <h3>2. Design & Planning</h3>
+                    <p>Our design team develops detailed plans incorporating your ideas while offering expert suggestions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                    </div>
+                    <h3>3. Precise Estimation</h3>
+                    <p>You'll receive a comprehensive, transparent estimate detailing all aspects of your project with no hidden costs.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                        </svg>
+                    </div>
+                    <h3>4. Craftsmanship in Action</h3>
+                    <p>Our skilled craftsmen execute your project with precision and care, maintaining clean, safe work areas.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <h3>5. Final Walkthrough</h3>
+                    <p>Before considering any project complete, we conduct a thorough walkthrough to ensure your satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Projects Section -->
+<section id="projects" class="section fade-in-section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Recent Projects</h2>
+            <p>See our quality workmanship in action</p>
+        </div>
+        <div class="gallery-grid">
+            <!-- First Bathroom Remodeling Before/After -->
+            <div class="gallery-item">
+                <div class="before-after" data-transformation="Bathroom Remodeling">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250226-WA0015.jpg-jBbUe5I6JLPIthT2ECj521DintKexW.jpeg" alt="Before Bathroom Remodeling" class="before">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250226-WA0022.jpg-TfR1NI9eqoANkluLFJ6JOIHUrb0KTP.jpeg" alt="After Bathroom Remodeling" class="after">
+                    <div class="slider" role="slider" tabindex="0" aria-label="Before and after image comparison slider"></div>
+                    <div class="before-label">Before</div>
+                    <div class="after-label">After</div>
+                </div>
+                <p class="gallery-caption">Luxury Bathroom Transformation - Palisades Park, NJ</p>
+            </div>
+            
+            <!-- Second Bathroom Remodeling Before/After -->
+            <div class="gallery-item">
+                <div class="before-after" data-transformation="Bathroom Renovation">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250226-WA0023.jpg-AeN8ecWOnxzpQLueyHQCR1PGa8qCpA.jpeg" alt="Before Bathroom Renovation" class="before">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250226-WA0024.jpg-cmIWXkEOQtgtVCN9DzawYooXhiEoPF.jpeg" alt="After Bathroom Renovation" class="after">
+                    <div class="slider" role="slider" tabindex="0" aria-label="Before and after image comparison slider"></div>
+                    <div class="before-label">Before</div>
+                    <div class="after-label">After</div>
+                </div>
+                <p class="gallery-caption">Complete Bathroom Renovation - Fort Lee, NJ</p>
+            </div>
+            
+            <!-- Basement Renovation Before/After -->
+            <div class="gallery-item">
+                <div class="before-after" data-transformation="Basement Renovation">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250226-WA0018.jpg-qW24DgG6FibPD0nch3lsHyEciXd1nx.jpeg" alt="Before Basement Renovation" class="before">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250226-WA0017.jpg-hkVAnb1LgFaAXJjhAU3aFFob29H5dz.jpeg" alt="After Basement Renovation" class="after">
+                    <div class="slider" role="slider" tabindex="0" aria-label="Before and after image comparison slider"></div>
+                    <div class="before-label">Before</div>
+                    <div class="after-label">After</div>
+                </div>
+                <p class="gallery-caption">Basement Finishing - Ridgefield, NJ</p>
+            </div>
+            
+            <!-- Bathroom Plumbing Before/After -->
+            <div class="gallery-item">
+                <div class="before-after" data-transformation="Bathroom Plumbing">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250226-WA0019.jpg-z5DK25jxq4rw6USv7YweGzm9DhyCGp.jpeg" alt="Before Bathroom Plumbing" class="before">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250226-WA0020.jpg-Xq0XrsnNT0TFsMF09wIWT31XbLkqaJ.jpeg" alt="After Bathroom Plumbing" class="after">
+                    <div class="slider" role="slider" tabindex="0" aria-label="Before and after image comparison slider"></div>
+                    <div class="before-label">Before</div>
+                    <div class="after-label">After</div>
+                </div>
+                <p class="gallery-caption">Bathroom Plumbing Renovation - Englewood, NJ</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section bg-light fade-in-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Customer Reviews</h2>
+                <p>What our clients say about our work</p>
+            </div>
+            <div class="testimonials-slider" id="testimonialSlider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Remodeling by Pablo transformed our outdated kitchen into a stunning space that's now the heart of our home. Their attention to detail and craftsmanship is outstanding!"</p>
+                        <div class="testimonial-author">
+                            <strong>Jennifer M.</strong>
+                            <span>Palisades Park, NJ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"We hired Pablo and his team for our bathroom renovation and couldn't be happier. They were professional, punctual, and delivered exactly what they promised."</p>
+                        <div class="testimonial-author">
+                            <strong>David K.</strong>
+                            <span>Fort Lee, NJ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The basement finishing project exceeded our expectations. What was once wasted space is now our favorite area in the house. Highly recommend Remodeling by Pablo!"</p>
+                        <div class="testimonial-author">
+                            <strong>Sarah L.</strong>
+                            <span>Ridgefield, NJ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section fade-in-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get a Free Estimate</h2>
+                <p>Contact us for a consultation and quote</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="kitchen-remodeling">Kitchen Remodeling</option>
+                                <option value="bathroom-remodeling">Bathroom Remodeling</option>
+                                <option value="basement-finishing">Basement Finishing</option>
+                                <option value="home-additions">Home Additions</option>
+                                <option value="outdoor-spaces">Outdoor Living Spaces</option>
+                                <option value="full-renovations">Full Home Renovations</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Get Estimate</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <h3>Contact Information</h3>
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <span>Palisades Park, NJ 07650</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <span>(201) 496-0126</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <span>info@remodelingbypablo.com</span>
+                        </div>
+                    </div>
+                    <div class="service-area">
+                        <h3>Service Area</h3>
+                        <p>Proudly serving Bergen County, including:</p>
+                        <div class="service-towns">
+                            <span>Palisades Park</span>
+                            <span>Fort Lee</span>
+                            <span>Leonia</span>
+                            <span>Ridgefield</span>
+                            <span>Cliffside Park</span>
+                            <span>Edgewater</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Remodeling by Pablo</h3>
+                    <p>Premium home remodeling services in Bergen County</p>
+                    <div class="footer-badge">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M12 1v4"/>
+                          <path d="M5 7l1.5 2.5"/>
+                          <path d="M1 12h4"/>
+                          <path d="M5 17l1.5-2.5"/>
+                          <path d="M12 19v4"/>
+                          <path d="M17 17l-1.5-2.5"/>
+                          <path d="M19 12h4"/>
+                          <path d="M17 7l-1.5 2.5"/>
+                          <circle cx="12" cy="12" r="7"/>
+                        </svg>
+                        <span>Licensed Contractor</span>
+                    </div>
+                    <div class="footer-badge">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M12 2l9 4v6c0 5-3.14 7.2-9 16-5.86-8.8-9-11-9-16V6l9-4z"/>
+                          <path d="M12 8v4"/>
+                          <path d="M12 16h.01"/>
+                        </svg>
+                        <span>Fully Insured</span>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Kitchen Remodeling</li>
+                        <li>Bathroom Remodeling</li>
+                        <li>Basement Finishing</li>
+                        <li>Home Additions</li>
+                        <li>Full Home Renovations</li>
+                        <li>Outdoor Living Spaces</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>Palisades Park, NJ 07650</li>
+                        <li>(201) 496-0126</li>
+                        <li>info@remodelingbypablo.com</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Pinterest">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M8 12h8"></path>
+                                <path d="M12 8v8"></path>
+                                <circle cx="12" cy="12" r="10"></circle>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Remodeling by Pablo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
